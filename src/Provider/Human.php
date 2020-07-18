@@ -9,9 +9,9 @@ use Psr\Http\Message\ResponseInterface;
 
 class Human extends AbstractProvider{
 
-    public $domain = 'http://{account}.rype3.net/account';
+    public $domain = 'https://{account}.rype3.net/account';
 
-    public $apiDomain = 'http://api.human.dev';
+    public $apiDomain = 'https://api.human.dev';
 
 
     public function __construct(array $options = [], array $collaborators = [])
