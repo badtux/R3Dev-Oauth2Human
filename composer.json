@@ -1,5 +1,5 @@
 {
-    "name": "indibeast/oauth2-human",
+    "name": "badtux/r3dev-oauth2human",
     "description": "Human OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
     "license": "MIT",
     "authors": [
