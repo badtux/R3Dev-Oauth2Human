@@ -6,6 +6,7 @@ use League\OAuth2\Client\Token\AccessToken;
 
 class Client {
 
+    static protected $baseUrl = 'https://'.__R3_CLIENT_DOMAIN.'/';
     static protected $baseUrl = 'http://{account}.rype3.net/';
     static protected $apipath = 'human/api/v1';
     protected $guzzleClient;
