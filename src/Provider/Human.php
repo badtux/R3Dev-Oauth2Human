@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 
 class Human extends AbstractProvider{
 
-    static protected $baseUrl = 'https://'.__R3_CLIENT_DOMAIN.'/';
+    static protected $domain = 'https://'.__R3_CLIENT_DOMAIN.'/';
     //public $domain = 'https://{account}.rype3.net/account';
 
     public $apiDomain = 'https://api.human.dev';
